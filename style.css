@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-seri;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+#father {
+  width: 90%;
+  height: 90%;
+  background-color: black;
+  margin: 5%;
+  color: black;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 0.25%;
+}
+.container {
+  background-color: gainsboro;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  padding: 3%;
+}
+.lcontainer {
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0.1em;
+
+  padding: 3%;
+}
+.l1 {
+  border-bottom: solid black;
+
+  padding-bottom: 10%;
+}
+#personal {
+  width: 100%;
+  height: 100%;
+}
+#pic {
+  align-items: center;
+}
+#info {
+  width: 100%;
+  margin-top: 10%;
+  align-items: flex-start;
+}
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.cert p {
+  padding: 1%;
+}
+.cert p a {
+  color: black;
+  text-decoration: underline;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+}
+.about {
+  width: 100%;
+  height: 30%;
+  border-bottom: solid black;
+}
+.about p,
+.text,
+.work ul,
+.extra ul {
+  padding: 1%;
+  font-size: 1.2em;
+}
+.education {
+  width: 100%;
+  height: 40%;
+  border-bottom: solid black;
+}
+.work {
+  width: 100%;
+  height: 20%;
+  border-bottom: solid black;
+}
+.extra {
+  width: 100%;
+  height: 30%;
+}
+.lcontainer h2 {
+  margin: 0.5%;
+}
